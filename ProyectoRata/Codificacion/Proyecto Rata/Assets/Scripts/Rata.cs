@@ -50,6 +50,8 @@ public class Rata : MonoBehaviour
      */
     AudioSource[] audioSource;
 
+    [SerializeField] Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -114,6 +116,8 @@ public class Rata : MonoBehaviour
         if (characterController.isGrounded)
         {
             aceleracionSalto = 0;
+
+            animator.SetTrigger("cayendo");
         }
 
         //Salto del persnaje a los eventos de los controles de juego
@@ -148,6 +152,7 @@ public class Rata : MonoBehaviour
         //Asignación del valor x al movimiento, en función de los cursores o del gamepad
         movimiento.x = (Input.GetKey(KeyCode.LeftArrow) ? 1 : Input.GetKey(KeyCode.RightArrow) ? -1 : 0) * velocidad;
         movimiento.x = Input.GetAxis("Horizontal") * velocidad * Time.deltaTime;
+        animator.SetBool("andando", movimiento.x != 0 ? true : false);
 
         //Movimiento del personaje
         characterController.Move(movimiento);
@@ -163,6 +168,8 @@ public class Rata : MonoBehaviour
 
         //aceleracionGravedad = InicializacionGravedad();
         aceleracionSalto = InicializacionSalto();
+
+        animator.SetTrigger("saltando");
     }
 
     /// <summary>
