@@ -5838,6 +5838,7 @@ MonoBehaviour:
   TextoMarcador: {fileID: 1423538046}
   TextoMarcadorMaximo: {fileID: 0}
   TextoVidas: {fileID: 1087629597}
+  SonidoJuego: 1
 --- !u!1 &1842228325
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,6 +6175,7 @@ MonoBehaviour:
   TextoMarcador: {fileID: 1423538046}
   TextoMarcadorMaximo: {fileID: 0}
   TextoVidas: {fileID: 1087629597}
+  SonidoJuego: 1
 --- !u!65 &1161147614880621720
 BoxCollider:
   m_ObjectHideFlags: 0
