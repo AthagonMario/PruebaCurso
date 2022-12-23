@@ -1,37 +1,12 @@
 fileFormatVersion: 2
-guid: b33b90766e627bc40b9e9dc5aaa281ec
+guid: deca681d607b558498cfa282a7476c2e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: 54154013257295684
     second: Esqueleto.001|Esqueleto.001Action
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: alas
-    second: {fileID: 2100000, guid: 88f9035cc71f5e347a2762f184c88d48, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cuello
-    second: {fileID: 2100000, guid: c787ccb8577b4134f89ae4e56d8f4a1d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cuerpo
-    second: {fileID: 2100000, guid: 95809f7c66844cc40b325a87e841ef38, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cuerpo2
-    second: {fileID: 2100000, guid: babdac4f1ff2eb941b23064fc9a32d44, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ojos
-    second: {fileID: 2100000, guid: 266bad3bed599dc4ba16e37afe697050, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -59,6 +34,9 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
+<<<<<<< HEAD:ProyectoRata/Codificacion/Proyecto Rata/Assets/Prefab/Personajes/cucaracha/cucaracha_movimiento_ok.fbx.meta
+    clipAnimations: []
+=======
     clipAnimations:
     - serializedVersion: 16
       name: Esqueleto.001|Esqueleto.001Action
@@ -89,6 +67,7 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+>>>>>>> 133d87dac211287f85bd99a5bdaa146d1ffb6ce8:ProyectoRata/Codificacion/Proyecto Rata/Assets/Prefab/Personajes/cucaracha/cucaracha_movimiento.fbx.meta
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -104,7 +83,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
