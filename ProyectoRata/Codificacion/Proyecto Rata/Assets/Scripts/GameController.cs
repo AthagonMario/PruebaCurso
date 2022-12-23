@@ -140,13 +140,16 @@ public class GameController : MonoBehaviour
         {
             SceneManager.LoadScene(escena_destino);
 
-            if (escena == "Inicio")
+            if (musica_juego != null)
             {
-                musica_juego.Play();
-            }
-            else
-            {
-                musica_juego.Stop();
+                if (escena == "Inicio")
+                {
+                    musica_juego.Play();
+                }
+                else
+                {
+                    musica_juego.Stop();
+                }
             }
 
             escena = string.Empty;
