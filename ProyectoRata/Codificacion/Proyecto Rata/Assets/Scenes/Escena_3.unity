@@ -363,8 +363,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.9574182, y: 1.9999998, z: 1.6375152}
-  m_Center: {x: -0.011751651, y: 0.00000011920929, z: -0.18124981}
+  m_Size: {x: 4.59, y: 2.91, z: 4.1}
+  m_Center: {x: 0.18, y: -0.25, z: 0.72}
 --- !u!1 &51574009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,11 +1524,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e865fad19f11b6d4da41ab2b5d139881, type: 3}
---- !u!4 &529338101 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4139333590347000144, guid: e865fad19f11b6d4da41ab2b5d139881, type: 3}
-  m_PrefabInstance: {fileID: 529338100}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &543268210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1342129291734386191, guid: b5e2780fd160bf448ba860e68a6c9b63, type: 3}
@@ -3359,15 +3354,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5389193911708032381, guid: b5e2780fd160bf448ba860e68a6c9b63, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.819
+      value: -9.85
       objectReference: {fileID: 0}
     - target: {fileID: 5389193911708032381, guid: b5e2780fd160bf448ba860e68a6c9b63, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.201
+      value: -6.191
       objectReference: {fileID: 0}
     - target: {fileID: 5389193911708032381, guid: b5e2780fd160bf448ba860e68a6c9b63, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.9038765
+      value: 3.883
       objectReference: {fileID: 0}
     - target: {fileID: 5964328429978318896, guid: b5e2780fd160bf448ba860e68a6c9b63, type: 3}
       propertyPath: m_LocalScale.x
@@ -4276,10 +4271,8 @@ Transform:
   - {fileID: 596916270741007174}
   - {fileID: 307361403}
   - {fileID: 745500609}
-  - {fileID: 1898996876840791442}
   - {fileID: 796993700}
   - {fileID: 1525364788}
-  - {fileID: 529338101}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6264,8 +6257,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e865fad19f11b6d4da41ab2b5d139881, type: 3}
---- !u!4 &1898996876840791442 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4139333590347000144, guid: e865fad19f11b6d4da41ab2b5d139881, type: 3}
-  m_PrefabInstance: {fileID: 1898996876840791441}
-  m_PrefabAsset: {fileID: 0}
