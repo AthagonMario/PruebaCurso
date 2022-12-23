@@ -1,37 +1,12 @@
 fileFormatVersion: 2
-guid: b33b90766e627bc40b9e9dc5aaa281ec
+guid: deca681d607b558498cfa282a7476c2e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: 54154013257295684
     second: Esqueleto.001|Esqueleto.001Action
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: alas
-    second: {fileID: 2100000, guid: 88f9035cc71f5e347a2762f184c88d48, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cuello
-    second: {fileID: 2100000, guid: c787ccb8577b4134f89ae4e56d8f4a1d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cuerpo
-    second: {fileID: 2100000, guid: 95809f7c66844cc40b325a87e841ef38, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cuerpo2
-    second: {fileID: 2100000, guid: babdac4f1ff2eb941b23064fc9a32d44, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ojos
-    second: {fileID: 2100000, guid: 266bad3bed599dc4ba16e37afe697050, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -59,36 +34,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Esqueleto.001|Esqueleto.001Action
-      takeName: Esqueleto.001|Esqueleto.001Action
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 60
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -104,7 +50,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
