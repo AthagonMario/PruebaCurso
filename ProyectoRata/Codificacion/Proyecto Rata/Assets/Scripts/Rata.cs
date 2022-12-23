@@ -87,7 +87,11 @@ public class Rata : MonoBehaviour
         //Pone a cero el marcado al inicio de una nueva partida
         if (SceneManager.GetActiveScene().name == "Escena_1")
         {
-            OnResetMarcador.Invoke(0);
+            try
+            {
+                OnResetMarcador.Invoke(0);
+            }
+            catch { }
         }
     }
 
