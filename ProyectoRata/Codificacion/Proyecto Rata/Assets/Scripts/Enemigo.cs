@@ -17,7 +17,12 @@ public class Enemigo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if (GiroCambioSentido)
+        {
+            transform.rotation = destino == punto_a.transform.position
+                ? Quaternion.Euler(0f, 180f, 0f)
+                : Quaternion.Euler(0f, 0f, 0f);
+        }
     }
 
     // Update is called once per frame
@@ -31,15 +36,15 @@ public class Enemigo : MonoBehaviour
         //Si el enemigo está muy próximo al punto de llegada, cambia de sentido y avanza al siguiente punto. El siguiente punto será el punto contrario
         if (Vector3.Distance(transform.position, destino ?? punto_b.transform.position) < 0.001f)
         {
-            destino = destino == punto_a.transform.position 
-                ? punto_b.transform.position 
+            destino = destino == punto_a.transform.position
+                ? punto_b.transform.position
                 : punto_a.transform.position;
 
             //Giro del enemigo, al cambio de sentido
             if (GiroCambioSentido)
             {
-                transform.rotation = destino == punto_a.transform.position 
-                    ? Quaternion.Euler(0f, 180f, 0f) 
+                transform.rotation = destino == punto_a.transform.position
+                    ? Quaternion.Euler(0f, 180f, 0f)
                     : Quaternion.Euler(0f, 0f, 0f);
             }
         }
